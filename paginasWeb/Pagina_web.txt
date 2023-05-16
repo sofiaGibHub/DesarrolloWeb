@@ -10,9 +10,11 @@
         <h3>El comienzo de un nuevo proyecto</h3>
         <p>Estás visualizando el contenido de <strong> mi primera página web.</strong></p>
         <p>Nota que en la pestaña del navegador se encuentra el título de mi página llamada:
-            "Mi primera página web"</p>
+            "Mi primera página web1"</p>
         <p>Una <i>página web</i> es otro medio más para poder difundir contenido por
             internet a todo el mundo.</p>
+
     </body>
+
 
     </html>
