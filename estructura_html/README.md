@@ -56,11 +56,11 @@ Crea una página HTML que contenga lo siguiente:
 
 ## Ejercicio 5
 Crea una página HTML basandote en el siguiente ejemplo:
-- [Ejemplo pdf](Etiqutas_html.pdf)
+- [Ejemplo pdf](ej5/Etiqutas_html.pdf)
 Utilizaras un sistema de archivos, puedes optener todos los recursos en las siguientes carpetas
-* [audio](audio/): ejemplo de un audio
-* [example](example/): ejemplos html de como utilizar las etiquetas
-* [img](img/): imagenes que se van a utilizar
+* [audio](ej5/audio/): ejemplo de un audio
+* [example](ej5/example/): ejemplos html de como utilizar las etiquetas
+* [img](ej5/img/): imagenes que se van a utilizar
 
 ### Recomendación
 __Subir confirmaciones de cambios a un repositorio remoto__
