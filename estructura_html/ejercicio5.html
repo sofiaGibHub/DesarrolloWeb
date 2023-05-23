@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
     <h1>Etiquetas html</h1>
     <p1>Existen otros tipos de etiquetas para crear una pagina web en <b>HTML</b> 5 que nos permiten encuadrar otros
@@ -18,25 +17,31 @@
         <p>Permite anclar una direccion URL <br>
             Ejemplo:
         </p>
-        <a href="ej5/img/mercurio.jpg">SOY UNA LIGA</a> <br> <br>
+        <a href="ej5/img/mercurio.jpg">SOY UNA LIGA</a> <br>
+
         <!-- 22222 -->
         <li Style="Color:Red;">&lt;abbr&gt;</li>
         <p>Representa una abreviacion o acronimo el atributo obcional title puede ampliar o describir la abreviatuara.
             si esta presente el atributo title tiene que contener la descripcion completa y nada mas
-            Ejemplo:<br><br>
-            Yo hago <abbr title="Protocolo de Transferencia de Hipertexto"> HTML</abbr><br>
+            Ejemplo:<br>
+            Yo hago <abbr title="Protocolo de Transferencia de Hipertexto"> HTML</abbr> <br>
             <!-- </p> 3333 -->
+        </p>
             <li Style="Color:Red;">&lt;addres&gt;</li>
         <p>Define la informacion del contacto del autor/propietario de un documento u articulo
             Ejemplo:<br>
-        <address>Escrito por Sofia</address>
+            <address>Escrito por Sofia</address>
         </p>
+
         <!-- 4444 -->
         <li Style="Color:Red;">&lt;article&gt;</li>
         <p><b>Un articulo debe de tener sentido por si mismo y debe de ser posible distribuirlo independientemente del
                 resto
                 del sitio
-                Fuentes potenciales para elemento article :</b> <br>
+                Fuentes potenciales para elemento article :
+            </b> <br>
+         </p>
+
         <ul>
             <li>Publicacion en el foro </li>
             <li>Entrada en el blog</li>
@@ -44,54 +49,56 @@
         </ul>
         <br>
         <b>Nota: &lt;article&gt; no se muestra como algo especial en un navegador. Sin embargo. puede usar CSS para
-            darle disenio</b> <br>
+            darle disenio
+        </b> <br>
         <a href="ej5/example/article.html">Ejemplo article con css</a>
-        </p>
-        </p>
+        
         <!-- 5555 -->
         <li Style="Color:Red;">&lt;aside&gt;</li>
-        <p><b>Define algun contenido ademas del contenido que se coloca. El contenido aparte debe <br>
-                estar indirectamente relacionado con el contenido circulante
-                diseñar el aside</p><b>
+        <p>Define algun contenido ademas del contenido que se coloca. El contenido aparte debe <br>
+             estar indirectamente relacionado con el contenido circulante
+            <b> Sugerencia:</b> aside se coloca a menudo como barra lateral en un documento
+            <b> Nota: </b> Este elemnto no se muestra como algo especial en el navegador. Sin embargo puede usat CSS 
+            para diseñar el aside 
             <br>
+        </p>
             <a href="ej5/example/aside.html">Ejemplo aside con css: aside </a>
-            <!-- </p>666 -->
-            <li Style="Color:Red;">&lt;audio&gt;</li>
-            <p><b>Agrega control de audio como reproduccion, pausa y volumen.El source permite
-                    especifiocar archivos de audio alternativos entre los que puede elegir el navegador. <br>
-                    Ejemplo: </b>
-                <br>
-                <audio controls>
-                    <source src="ej5/audio/teclado-mecanografia.mp3">
-                </audio>
+
+        <!-- </p>666 -->
+        <li Style="Color:Red;">&lt;audio&gt;</li>
+        <p>Agrega control de audio como reproduccion, pausa y volumen.El source permite
+            especifiocar archivos de audio alternativos entre los que puede elegir el navegador. <br>
+            Ejemplo:
+        </P>
+        <br>
+        <audio controls>
+            <source src="ej5/audio/teclado-mecanografia.mp3">
+        </audio>
 
                 <!-- </p>7777 -->
+        <li Style="Color:Red;">&lt;button&gt;</li>
+        Define un boton en el que puede hacer click
+        Dentro de un &lt;button&gt; puedes poner texto (y etiquetas como &lt;i&gt; , &lt;b&gt; &lt;strong&gt;,
+        &lt;img&gt;, etc)Esto no es posible con un boton creado con &lt;input&gt;
+        <b>Sugerencia:</b> Especificar siempre el type de un button, para indicar a los navegadorea que tipo de
+        boton es. <br> <br>
+        <b>Consejo: Puede diseñar botones facilmente con CSS</b> <br> <br>
 
-                <li Style="Color:Red;">&lt;button&gt;</li>
-                Define un boton en el que puede hacer click
-                Dentro de un &lt;button&gt; puedes poner texto (y etiquetas como &lt;i&gt; , &lt;b&gt; &lt;strong&gt;,
-                &lt;img&gt;, etc)Esto
-                no es posible con un boton creado con &lt;input&gt;
-                <b>Sugerencia:</b> Especificar siempre el type de un button, para indicar a los navegadorea que tipo de
-                boton es. <br> <br>
+        <button type="button" style="background-color: #4CAF50;"> Boton 1 </button>
+        <button type="button" style="background-color: #008CBA"> Boton 2 </button>
+        <br>
 
-                <b>Consejo: Puede diseñar botones facilmente con CSS</b> <br> <br>
-
-                <button type="button" style="background-color: #4CAF50;"> Boton 1 </button>
-                <button type="button" style="background-color: #008CBA"> Boton 2 </button>
-                <br>
-
-                <!-- </p>8888 -->
-                <br>
-                <li Style="Color:Red;">&lt;form&gt;</li>
-            <p><b> Es un contenedor para diferentes tipos de elementos de entrada, como campos de texto, casillas de
-                    verificacion, botones de opcion, botones de envio, etc
-                </b>
-            <ul>
-                <li> &lt;input type ="text" &gt;</li>
+        <!-- </p>8888 -->
+        <br>
+        <li Style="Color:Red;">&lt;form&gt;</li>
+        <b> Es un contenedor para diferentes tipos de elementos de entrada, como campos de texto, casillas de
+            verificacion, botones de opcion, botones de envio, etc
+        </b>
+        <ul>
+            <li> &lt;input type ="text" &gt;</li>
                 Muestra el campo de entrada de texto de una sola linea <br>
                 <input type="text"> <br>
-                <li> &lt; input type radio &gt;</li>
+            <li> &lt; input type radio &gt;</li>
                 Muestra un boton de radio para seleccionar de muchas opciones <br>
                 <fieldset>
                     <legend>Escolaridad</legend>
@@ -102,27 +109,143 @@
                     <label for="">Prepa</label>
                     <input name="radio" type="radio">
                 </fieldset>
-                <li>&lt;input type=submmit &gt;</li>
+
+            <li>&lt;input type=submmit &gt;</li>
                 Muestra una casilla de verificacion, para seleccionar una o varias opciones <br>
                 <input type="checkbox">
                 <input type="checkbox">
-                <li>&lt;input type button &gt;</li>
+            <li>&lt;input type button &gt;</li>
                 Muestra un boton para hacerle click <br>
                 <input type="button"> Oprime </button> <br>
-                <!-- 9999 -->
+        </ul>
+
+        <!-- 9999 -->
+        <li Style="Color:Red;">&lt;footer&gt;</li> <br>
+        Define un pie de página para un documento o sección     
+        Normalmente contiene : <br>
+        <ul>
+            <li> Informacion de auditoria</li>
+            <li> Informacion de registro</li>
+            <li> Informacion del contacto</li>
+            <li> Mapa del sitio</li>
+            <li> Volver a enlaces superiores</li>
+            <li> Documentos relacionados</li> <br>
+            <a href= "ej5/example/footer.html"> FOOTER </a>
+        </ul>
+        <br>
+
+        <!-- 10 10 10 10 -->
+        <li Style="Color:Red;">&lt;header&gt; </li> <br>
+        <p>Repreesenta un contenedor de contenido introductorio o un conjunto de enlaces de navegacion.
+        Normalmente contiene:</p>
+        <ul>
+            <li> Uno o mas elementos de encabezado hi-h6 </li>
+            <li> Logotipo o icono </li>
+            <li> Informacion de auditoria</li>
+
+            <b>Nota:</b> Puede tener varios header, en un documento HTLM, sin embargo no se puede colocar
+            dentro de un footer, adress u otro header <br>
+            Ejemplo:     
+            <br> <br>
+            <header> <b> Encabezado de la pagina principal</b></header>    
+
+        </ul>
+       
+
+        <!-- 11 11 11 11 -->
+        <li Style="Color:Red;">&lt;hgoup&gt;</li> <br>
+        Generalmente se utiliza para agrupar un conjunto de uno o mas lemntos h1- h6, para agrupar,por
+        ejemplo, un titulo de seccion y un subtitulo adjunto. <br>
+
+        Ejemplo
+
+        <a href= "ej5/example/hgroup.html"> hgoup </a>
+
+
+         <!-- 12 12 12 12 -->
+         <li Style="Color:Red;">&lt;h1&gt;-&lt;h6&gt;</li> <br> 
+         Se utilizan para definir encabezados <br>
+         Ejemplo:
+         <br>
+         <h1> Hola Mundo </h1>
+         <p Style="Color:Red;">Hola Mundo</p>   
+         
+
+           <!-- 13 13 13 13 -->
+           <li Style="Color:Red;">&lt;img&gt;</li> <br> 
+           Se utiliza para incrustar una imagen en una pagina html 
+           Tecnicamente, las imagenes no se insertan en un apagina web;las imagenes estan vinculadas a paginas
+           web . La etiqueta ">&lt;img&gt; crea un espacio de espera para la imagen de referencia
+           Tiene atributos obligatorios:
+           <ul>
+                <li> src: especifica la ruta de la imagen </li>
+                <li> alt: especifica un texto alternativo para la imagen, si la imagen por algun momento no se puede mostrar. </li>
             </ul>
-            <li Style="Color:Red;">&lt;footer&gt;</li> <br> </li>
-                Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegacion
-                normalmente contiene : <br>
-                <li> Informacion de auditoria</li>
-                <li> Informacion de registro</li>
-                <li> Informacion del contacto</li>
-                <li> Mapa del sitio</li>
-                <li> Volver a enlaces superiores</li>
-                <li> Documentos relacionados</li> <br>
-                <a href= "ej5/example/footer.html"> FOOTER </a>
-            </p>
+
+            <a href= "ej5/example/img.html">imagene </a>
+           
+            <!-- 14 14 14 14 -->
+           <li Style="Color:Red;">&lt;map&gt;<br> </li> 
+            Se utiliza para definir un mapa de imagen, es una imagen con areas donde se pueda dar click
+            El atributo de nombre requerido del &lt;map&gt; esta asociado  con el atributo usemap de &lt;img&gt;y crea una
+            relacion entre la imagen y el mapa
+            <br>
+            <a href= "ej5/example/map.html"> map </a>
+            
+            <!-- 15 15 15 15 -->
+            <li Style="Color:Red;">&lt;nav&gt; </li> <br>  
+             Define un conjunto de enlaces de navegacion
+             Tengan en cuenta de NO todos los enlaces de un documento debe estar dentro de un &lt;nav&gt;
+             Este elemnto esta destinado solo para el bloque principal de enlaces de navegacion. <br>
+
+             Ejemplo: 
+             <br> <br>
+             <nav>
+                <a href= "https://www.google.com/"> Google  | </a>
+                <a href= "https://www.youtube.com"> YouTube  | </a>
+                <a href= "https://github.com"> GitHub | </a> 
+                <a href= "https://infoedcmvc.my.canva.site/alfonso6z"> EDC </a>
+             </nav>
+
+             <!-- 16 16 16 16 -->
+             <li Style="Color:Red;">&lt;p&gt;</li> <br>  
+             Define un parrafo.
+             Los navegadores  agergan automaticamente una linea en blanco antes y despues de cada >&lt;p&gt;
+             <br>
+             Ejemplo 
+             <a href= "ej5/example/p.html"> p </a>
+            
+             <!-- 17 17 17 17 -->
+             <li Style="Color:Red;">&lt;scrip&gt;</li> <br>  
+             Se utiliza para inscrustar un script del lado del cliente <b>JavaScrpt</b>
+             Contiene declaraciones de secuencias de comendos o apunta a un archivo des ecuencia de comandos
+             externos a traves de un <b>src</b> 
+             Los usos comunes de <b>JavaScript</b> son manipulacion de imagenes, la validacion de formularios y los
+             cambios dinamicos de contenido. <br>
+
+             <b>Nota:</b> cuando un navegador lee una hoja de estilo, formateara el documento HTML de acuerdo con la 
+             informacion de la hoja de estilo, se ha definido algunas propiedades para el mismo selector
+             (elemento) en diferentes hojas de estilo, se  utilizara el valor de la ultima hoja de estilo leido 
+             consulte el ejemplo a continuacion
+             <br>
+             Ejemplo 
+             <a href= "ej5/example/script.html"> script </a>
+
+
+             <!-- 18 18 18 18 -->
+             <li Style="Color:Red;">&lt;style&gt;</li> <br>
+             Se utiliza para definir la informacion de estilo <b>CSS</b> de un documento
+             Dentro de &lt;style&gt; , especifica como debe mostrarse los elementos HTML en un navegador <br>
+             Ejemplo:
+             <p style="Color:green;"> Ejemplo de Style </p>
+             <br>
+
+             
+             <!-- 19 19 19 19 -->
+             <li Style="Color:Red;">&lt;section&gt;</li> <br>
+             Define una seccion en un documento <br>
+             Ejemplo
+             <a href= "ej5/example/section.html"> section </a>
     </ol>
 </body>
-
 </html>
