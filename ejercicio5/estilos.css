@@ -1,35 +1,51 @@
+nav {
+    text-align: right;
+    padding-right: 50px;
+}
 
-
+a{
+    margin-right: 10px;
+    color: rgb(61, 195, 61);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 101, 0);
+}
 .grid-container{
     display:grid;
     grid-template-columns: auto;
-    padding:5px;
-}
-.grid-item
-{
-    border:1px solid rgba(0,0,0,0.8)
-    padding:20px;
-    font.size:30px;
-    text-aalign:center;
+    width: 40%;
+    height: 70%;
+    /* background-color: black; */
+    color:white;
 }
 
 #uno{
-    grid-column: 1/2;
+    grid-column: 1/4;
     grid-row: 1/2;
+    /* background-color: brown; */
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -20px;
 }
 #dos{
     grid-column: 2/2;
     grid-row: 2/3;
+    /* background-color: rgb(42, 165, 151); */
+    font-size: 40px;
+    text-align: right;
+    margin-right: 10px;
 }
 #tres{
     grid-column: 3/4;
     grid-row: 2/3;
+    /* background-color: antiquewhite; */
+    font-size: 50px;
+    font-weight: bolder;
 }
 #cuatro{
     grid-column: 3/4;
     grid-row: 3/4;
-}
-#cinco{
-    grid-column: 3/4;
-    grid-row: 4/5;
+    /* background-color: rgb(42, 165, 108); */
+    font-size: 40px;
 }
