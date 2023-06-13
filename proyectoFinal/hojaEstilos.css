@@ -1,0 +1,82 @@
+.hijos-vertical{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-redondo{
+    height: 30px;
+    border: solid 2px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 0px 15px;
+    padding-top: 80;
+}
+
+.boton-blanco{
+    background-color: white;
+    color: black;
+}
+
+.boton-blanco:hover{
+    background-color:black;
+    color: white;
+}
+
+.boton-rojo{
+    background-color: #D40032;
+    color: white;
+    margin-top: 100px;
+}
+
+.boton-rojo:hover{
+    background-color: white;
+    color: #D40032;
+}
+
+.link-header{ 
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+a{
+    margin-right: 10px;
+    color: rgb(18, 20, 18);
+    text-decoration: none;
+}
+
+.boton2 {
+    color: white;
+    background-color: black;
+}
+.seccion_01 {
+    background-color: rgb(4,100,68);
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.seccion_02 { 
+    background-color: rgb(216,4,52);
+    color: white;
+    font-family:sans-serif,Helvetica,arial;
+    display: flex;
+    font-size: 40px;
+    height: 30%;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.seccion_02 img {
+    width: 50%;
+}
+.seccion_02 div {
+    width: 50%;
+    text-align: center;
+    padding: auto;
+}
