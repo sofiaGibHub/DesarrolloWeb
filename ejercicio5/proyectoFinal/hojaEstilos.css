@@ -1,0 +1,69 @@
+a{
+    margin-right: 10px;
+    color: rgb(18, 20, 18);
+    text-decoration: none;
+}
+
+.boton2 {
+    color: white;
+    background-color: black;
+}
+.seccion_01 {
+    background-color: rgb(4,100,68);
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.seccion_02 { 
+    background-color: rgb(216,4,52);
+    color: white;
+    font-family:sans-serif,Helvetica,arial;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.seccion_02 img {
+    width: 700px;
+    height: 14cm;
+}
+
+.seccion_02 button {
+    background-color: rgb(216,4,52);
+    color: rgb(248, 242, 243);
+    font-size: 15px;
+    border-color: rgb(251, 248, 249);
+}
+
+
+.seccion_03 {
+    background-color:rgb(216,4,52);
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin:10px 0px 10px 0px;
+    height: 100%;
+}
+.seccion_03 img {
+    width: 55%;
+    height: 15cm;
+    margin:0px 0px 0px 0px;
+
+}
+.seccion_03 button {
+    background-color: rgb(216,4,52);
+    color: rgb(248, 242, 243);
+    font-size: 15px;
+    border-color: rgb(251, 248, 249);
+}

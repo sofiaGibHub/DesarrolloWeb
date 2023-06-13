@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .parallax {
+      /*colocar imagen de fondo*/
+      background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg"); 
+      /* fijar la posición de una imagen de fondo en relación con la ventana 
+      del navegador */
+      background-attachment: fixed;
+      /* posición inicial de una imagen de fondo dentro de su contenedor. */
+      background-position: center;
+      /* controlar la repetición de una imagen de fondo dentro de su contenedor. */
+      background-repeat: no-repeat;
+      /* tamaño de la imagen */
+      background-size: cover;
+      /* La unidad de medida vh representa el porcentaje de la altura de la ventana gráfica. */
+      height: 100vh;
+    }
+    
+    .content {
+      padding: 50px;
+      text-align: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="parallax">
+    <div class="content">
+      <h1>Bienvenido al sitio web Parallax</h1>
+      <p>Desplázate hacia abajo para experimentar el efecto Parallax</p>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h2>Sección 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt libero quis dolor luctus, ut dapibus dui vulputate.</p>
+  </div>
+  
+  <!-- cambia el fondo del contenedor para aplicar el efecto con varias imagenes-->
+  <div class="parallax"> 
+    <div class="content">
+      <h2>Sección 2</h2>
+      <p>Suspendisse iaculis erat a nunc lacinia efficitur. In bibendum augue vel quam egestas, eu lacinia arcu suscipit.</p>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h2>Sección 3</h2>
+    <p>Maecenas nec purus ut enim vestibulum feugiat at ut risus. Nulla finibus lectus id ipsum ultricies, non sollicitudin mi vehicula.</p>
+  </div>
+</body>
+</html>
